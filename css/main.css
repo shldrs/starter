@@ -1,0 +1,118 @@
+.logo {
+	
+	display: inline;
+}
+
+nav {
+	display: inline;
+	float: right;
+	margin-top: 24px;
+}
+
+nav ul li {
+	margin-right: 25px;
+}
+.navigation li {
+	display: inline;
+	font-family: 'Titillium Web';
+	font-size: 16px;
+	font-weight: 400;
+	color: #f63c3c;
+}
+.navigation li a {
+	text-decoration: none;
+	color: #000000;
+	opacity: 0.5;
+}
+
+.carousel li{
+	display: none;
+}
+
+.carousel li.active {
+	display: block;
+}
+
+main .active{
+	background-image: url(../img/background1.jpg);
+	background-position: center center fixed;
+	width: 100%;
+	height: 1009px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+main .content {
+	padding-top: 310px;
+	margin: 0 auto;
+	text-align: center;
+}
+main .content h1 {
+	font-family: 'Teko';
+	font-size: 120px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+main .content p {
+	font-family: 'Titillium Web';
+	font-size: 22px;
+	font-weight: 300;
+	color: white;
+	opacity: .7;
+	text-align: center;
+	width: 55%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	line-height: 140%;
+}
+main .content a {
+	font-family: 'Teko';
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.projects h2 {
+	font-family: 'Teko';
+	font-size: 40px;
+	color: black;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/*.projects article img {
+	width: 930px;
+	height: 500px;
+}
+.projects article {
+	float: left;
+}
+*/
+.social-media li {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.social-media li a{
+	text-decoration: none;
+	background-color: #352d2f;
+	padding: 15px 15px 15px 15px;
+}

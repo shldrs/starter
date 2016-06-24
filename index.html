@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>SAGE</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Teko:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body>
+
+	<!-- Top Navigation Bar -->
+	<header class="top-header">
+		
+		<div class="container">
+			
+			<div class="logo"><img src="img/sage.jpg" alt="SAGE"></div>
+
+			<nav class="navigation">
+				
+				<!-- Mobile Menu: the "mobile-only" class means that this is something we want to only be visible in mobile view -->
+				<div class="menu mobile-only" id="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				
+				<!-- Desktop Menu: the "mobile-hide" class means that this is something we want to hide in mobile view -->
+				<ul class="nav-links mobile-hide">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Get in Touch</a></li>
+				</ul>
+			</nav>
+
+		</div>	
+	</header>
+
+
+	<!-- We'll wrap everything between the navigation bar and the footer with the <main> tag -->
+	<main>
+
+
+		<!-- Carousel Section -->
+		<section class="carousel">
+
+			<!-- Each Carousel Slide is considered as a list element -->
+			<ul class="slideshow">
+
+				<!-- "active" class is used to denote the current slide that is visible -->
+				<li class="active">
+					<div class="content">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#" class="button">Explore More</a>
+					</div>	
+				</li>
+				
+				<li>
+					<div class="content">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#" class="button">Explore More</a>
+					</div>	
+				</li>
+				
+				<li>
+					<div class="content">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#" class="button">Explore More</a>
+					</div>	
+				</li>
+				
+				<li>
+					<div class="content">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#" class="button">Explore More</a>
+					</div>	
+				</li>
+			
+			</ul>
+
+			<!-- The four rectangular icons for toggling between Carousel slides -->
+			<nav class="pagination mobile-hide">
+				<ul>
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</nav>
+
+		</section>
+
+		
+		<!-- Project Section -->
+		<section class="projects">
+
+			<h2>My Projects</h2>
+
+			<!-- This div will contain all the article tiles -->
+			<!-- We add a class of clearfix in order to clear the floats for all the child elements -->
+			<div class="clearfix">
+
+				<!-- Each Tile is an article -->
+				<article>
+					<figure>
+
+						<!-- The image is wrapped with an anchor tag because it's meant to be a clickable link -->
+						<a href="#">
+							<img src="img/projects/tesla.jpg" alt="Tesla">
+
+							<!-- The Figcaption will be the content that shows up on mousehover -->
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									Client: Personal Project
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>
+						
+						</a>	
+					</figure>
+
+					<!-- Content below the image tile -->
+					<h3><a href="#">Model S Catalog</a></h3>
+					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+				</article>
+
+				<article>
+					<a href="#">
+						<figure>					
+							<img src="img/projects/stuhrling.jpg" alt="Tesla">
+
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									Client: Personal Project
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>					
+						</figure>
+					</a>	
+
+					<h3><a href="#">Model S Catalog</a></h3>
+					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+				</article>
+
+				<article>
+					<a href="#">
+						<figure>
+							<img src="img/projects/curiosity.jpg" alt="Tesla">
+							
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									Client: Personal Project
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>					
+						</figure>
+					</a>	
+					
+					<h3><a href="#">Model S Catalog</a></h3>
+					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+				</article>
+
+				<article>
+					<figure>
+						<a href="#">
+							<img src="img/projects/penguin.jpg" alt="Tesla">
+							
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									Client: Personal Project
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>
+						</a>	
+					</figure>
+					
+					<h3><a href="#">Model S Catalog</a></h3>
+					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+				</article>
+
+			</div>	
+
+			<!-- The footer section of this section -->
+			<footer>
+				<div class="link">
+					<a href="#">Show More Projects</a>
+				</div>	
+			</footer>	
+		</section>
+
+
+
+		<!-- Call to action banner section -->
+		<section class="cta">
+			<h2>Showcasing your work has never been more fun</h2>
+			<p>Discover elegant solution for your online portfolio. Fast, reliable, affordable...</p>
+			<a href="#" class="button">Get In Touch</a>
+		</section>
+
+	
+		<!-- Social Media section -->
+		<aside class="social-media">
+			<div class="container">
+				<h2>Stay Connected</h2>
+				<p>Join us on our social networks for all the latest updates, product/service announcements and many more</p>
+				<!-- We'll use a clearfix class again since we'll have floated boxes in this section -->
+				<ul class="clearfix">
+					<li><a href="#" target="_blank" class="social-link"><i class="fa fa-behance"></i>Behance</a></li>
+					<li><a href="#" target="_blank" class="social-link"><i class="fa fa-facebook"></i>Facebook</a></li>
+					<li><a href="#" target="_blank" class="social-link"><i class="fa fa-pinterest"></i>Pinterest</a></li>
+					<li><a href="#" target="_blank" class="social-link"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+				</ul>
+			</div>	
+		</aside>
+
+	</main>
+	<!-- Closing out the main section -->
+
+
+	<!-- The footer of the page -->
+	<footer>
+		<small>Copyright &copy; 2015 SAGE Agency Worldwide. All rights reserved.</small>
+	</footer>
+
+</body>
+</html>
